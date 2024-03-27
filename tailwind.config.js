@@ -8,6 +8,12 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      screens: {
+        sm: { min: '480px' },
+        md: { min: '768px' },
+        lg: { min: '976px' },
+        xl: { min: '1440px' },
+      },
       colors: {
         lightRed: 'hsl(0, 100%, 63%)',
         accentCyan: 'hsl(176, 68%, 64%)',
