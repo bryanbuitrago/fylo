@@ -3,9 +3,12 @@ import Link from 'next/link';
 
 const Productive = () => {
   return (
-    <section id='productive' className='bg-darkBlue1 dark:bg-darkBlue1 pt-24'>
+    <section id='productive' className='bg-white dark:bg-darkBlue1 pt-24'>
       {/* Productive Container  */}
-      <div className='container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16'>
+      <div
+        className='container flex flex-col items-center mx-auto px-6 
+                   pt-24 pb-32 md:flex-row md:space-x-16'
+      >
         {/*  Image  */}
         <div className='md:w-1/2'>
           <Image
