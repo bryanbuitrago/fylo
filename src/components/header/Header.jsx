@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoHeader from './LogoHeader';
 import NavItems from './NavItems';
-import ButtonToggleTheme from './ButtonToggleTheme'; // Import the button component
+import ButtonsToggleTheme from './ButtonsToggleTheme'; // Import the button component
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
                    md:space-x-10 md:absolute top-12 right-10'
       >
         <NavItems />
-        <ButtonToggleTheme />
+        <ButtonsToggleTheme />
       </div>
     </header>
   );
