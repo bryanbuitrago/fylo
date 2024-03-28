@@ -1,3 +1,4 @@
+import EarlyAcessSection from '@/components/earlyaccess/EarlyAccessSection';
 import FeaturesSection from '@/components/features/FeaturesSection';
 import Header from '@/components/header/Header';
 import HeroSection from '@/components/hero/HeroSection';
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturesSection />
       <ProductiveSection />
       <TestimonialsSection />
+      <EarlyAcessSection />
     </main>
   );
 }
