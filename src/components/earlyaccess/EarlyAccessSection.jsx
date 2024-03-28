@@ -27,7 +27,7 @@ const EarlyAcessSection = () => {
           </div>
           <button
             className='w-full p-3 px-6 rounded-full bg-accentCyan 
-                       md:w-56 hover:scale-95 transform transition ease-in-out'
+                       md:w-56 hover:scale-95 transform transition ease-in-out capitalize'
             type=''
           >
             get started for free
