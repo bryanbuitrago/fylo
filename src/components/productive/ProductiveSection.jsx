@@ -36,13 +36,13 @@ const Productive = () => {
             <div className='block mt-4'>
               <Link
                 href='#'
-                className='border-b border-accentCyan text-accentCyan hover:cursor-pointer group'
+                className='border-b border-accentCyan text-accentCyan hover:cursor-pointer group text-lg'
               >
                 See how Fylo works
                 <Image
                   src='/images/icon-arrow.svg'
-                  width={16}
-                  height={16}
+                  width={30}
+                  height={30}
                   className='inline ml-1 pb-1 hover:cursor-pointer group-hover:translate-x-2 
                              transition duration-500 ease-in-out'
                 />
