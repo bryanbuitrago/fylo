@@ -1,5 +1,6 @@
 import EarlyAcessSection from '@/components/earlyaccess/EarlyAccessSection';
 import FeaturesSection from '@/components/features/FeaturesSection';
+import Footer from '@/components/footer/Footer';
 import Header from '@/components/header/Header';
 import HeroSection from '@/components/hero/HeroSection';
 import ProductiveSection from '@/components/productive/ProductiveSection';
@@ -14,6 +15,7 @@ export default function Home() {
       <ProductiveSection />
       <TestimonialsSection />
       <EarlyAcessSection />
+      <Footer />
     </main>
   );
 }
