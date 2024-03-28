@@ -19,7 +19,7 @@ const ContactInfo = () => {
           height={24}
           alt='Email'
         />
-        <span>example@fylo.com</span>
+        <span>email@fylo.com</span>
       </div>
     </div>
   );
