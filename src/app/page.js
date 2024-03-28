@@ -1,15 +1,15 @@
-import Features from '@/components/features/Features';
+import FeaturesSection from '@/components/features/FeaturesSection';
 import Header from '@/components/header/Header';
-import Hero from '@/components/hero/Hero';
-import Productive from '@/components/productive/Productive';
+import HeroSection from '@/components/hero/HeroSection';
+import ProductiveSection from '@/components/productive/ProductiveSection';
 
 export default function Home() {
   return (
     <main className=''>
       <Header />
-      <Hero />
-      <Features />
-      <Productive />
+      <HeroSection />
+      <FeaturesSection />
+      <ProductiveSection />
     </main>
   );
 }
